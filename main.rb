@@ -1,5 +1,5 @@
-require_relative "console_io"
-require_relative "test"
+require_relative "lib/console_io"
+require_relative "lib/test"
 
 puts "Оценка уровня общительности (тест В.Ф. Ряховского) v0.3"
 puts "Тест содержит возможность определить уровень коммуникабельности человека. " \
