@@ -20,6 +20,8 @@ class ConsoleIo
 
   # загружаем файл
   def load_data(file_path)
+    abort "Файл не найден: #{file_path}" unless File.exist?(file_name)
+
     f = File.new(file_path, "r:UTF-8")
     f.readlines
   end
