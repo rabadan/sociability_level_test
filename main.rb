@@ -1,5 +1,6 @@
 require_relative 'lib/console_io'
 require_relative 'lib/test'
+current_path = File.dirname(__FILE__)
 
 puts 'Оценка уровня общительности (тест В.Ф. Ряховского) v0.3'
 puts 'Тест содержит возможность определить уровень коммуникабельности ' \
@@ -7,8 +8,8 @@ puts 'Тест содержит возможность определить ур
   'варианта ответов – «да», «иногда» и «нет».'
 
 io = ConsoleIo.new
-questions = io.load_data('./data/questions.txt')
-results = io.load_data('./data/results.txt')
+questions = io.load_data("#{current_path}/data/questions.txt")
+results = io.load_data("#{current_path}/data/results.txt")
 
 test = Test.new(questions, results)
 
