@@ -1,14 +1,14 @@
-# Тест В.Ф. Ряховского
-Оценка уровня общительности ([тест В.Ф. Ряховского](http://psylist.net/praktikum/00003.htm) ). 
+# Test of V.F. Ryakhovsky
+Assessing the level of sociability ([Test of V.F. Ryakhovsky](http://psylist.net/praktikum/00003.htm) ). 
 
-
-для запуска - выполните в руби файл 
+To run - execute in a ruby file
 ```
 ruby main.rb
 ```
 
-и отвечайте на вопросы цифрами 1, 2 и 3
+And answer the questions with the numbers 1, 2 and 3
+After the questions run out - your answer to the last test will be printed
 
-После того как закончатся вопросы - распечатается ваш ответ на прошедший тест
 
-Автор: [Рабадан Акагасанов](https://github.com/rabadan)
+#### Author: 
+[Rabadan Akagasanov](http://rabadan.ru)
